@@ -5,7 +5,7 @@ use App\Http\Controllers\ProudctController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CardController;
 use App\Http\Controllers\PagesController;
-use App\Http\Controllers\TeamController;
+use App\Http\Controllers\PagesController;
 
 
 
@@ -102,6 +102,6 @@ Route::get(
     [PagesController::class, 'getPages2']
 )->name("thankyou");
 Route::get(
-    '/team',
-    [TeamController::class, 'getteam']
+    '/thankyou',
+    [TeamController, 'getteam']
 );

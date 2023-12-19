@@ -10,18 +10,18 @@
 	    <meta name="author" content="">
 	    <meta name="keywords" content="">
 	    <meta name="description" content="">
-	    <link rel="stylesheet" type="text/css" href='{{ asset("fonts/icomoon/icomoon.css") }}'>
-	    <link rel="stylesheet" type="text/css" href='{{ asset("css/slick.css") }}'>
-		<link rel="stylesheet" type="text/css" href='{{ asset("css/slick-theme.css") }}'>
-		<link rel="stylesheet" type="text/css" href='{{ asset("css/magnific-popup.css") }}'>
+	    <link rel="stylesheet" type="text/css" href=''>
+	    <link rel="stylesheet" type="text/css" href={{ asset("css/slick.css") }}>
+		<link rel="stylesheet" type="text/css" href={{ asset("css/slick-theme.css") }}>
+		<link rel="stylesheet" type="text/css" href={{ asset("css/magnific-popup.css") }}>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" type="text/css" href='{{ asset("css/bootstrap.min.css") }}'>
-	    <link rel="stylesheet" type="text/css" href='{{ asset("css/style.css") }}'>
+		<link rel="stylesheet" type="text/css" href={{ asset("css/bootstrap.min.css") }}>
+	    <link rel="stylesheet" type="text/css" href={{ asset("css/style.css") }}>
 
 	</head>
 

@@ -102,6 +102,6 @@ Route::get(
     [PagesController::class, 'getPages2']
 )->name("thankyou");
 Route::get(
-    '/team',
-    [TeamController::class, 'getteam']
+    '/thankyou',
+    [TeamController, 'getteam']
 );

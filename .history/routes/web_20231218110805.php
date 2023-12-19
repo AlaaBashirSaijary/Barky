@@ -103,5 +103,5 @@ Route::get(
 )->name("thankyou");
 Route::get(
     '/team',
-    [TeamController::class, 'getteam']
+    [TeamController::class, 'index']
 );

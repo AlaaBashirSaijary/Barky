@@ -20,8 +20,8 @@
 
 		<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" type="text/css" href='{{ asset("css/bootstrap.min.css") }}'>
-	    <link rel="stylesheet" type="text/css" href='{{ asset("css/style.css") }}'>
+		<link rel="stylesheet" type="text/css" href=''>
+	    <link rel="stylesheet" type="text/css" href={{ asset("css/style.css") }}>
 
 	</head>
 
