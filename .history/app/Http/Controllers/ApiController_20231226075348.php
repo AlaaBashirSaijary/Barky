@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\User;
+
+class ApiController extends Controller
+{
+    public function getUsers(){
+        $users = User::all();
+        return $users;
+    }
+
+    public function storePost(){
+        $users = User::all();
+        return $users;
+    }
+}
